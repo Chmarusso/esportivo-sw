@@ -3,12 +3,11 @@ import { BrowserRouter, Route, Switch} from 'react-router-dom';
 
 import Welcome from './components/Welcome';
 import SexChoice from './components/SexChoice';
-import TournamentList from './components/TournamentsList';
 import QuizStartingScreen from './components/QuizStartingScreen';
 import Questions from './components/Questions';
+import TournamentsList from './components/TournamentsList';
 
 import './App.css';
-import TournamentsList from './components/TournamentsList';
 
 class App extends Component {
   render() {
