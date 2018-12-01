@@ -21,8 +21,8 @@ class App extends Component {
           <Route exact path='/questions' component={Questions} />
         </Switch>
       </BrowserRouter>
-    );
+    )
   }
 }
 
-export default App;
+export default App
