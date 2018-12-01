@@ -7,6 +7,8 @@ import QuizStartingScreen from './components/QuizStartingScreen'
 import Questions from './components/Questions'
 
 import './App.css'
+import Score from './components/Score';
+import FinalScreen from './components/FinalScreen';
 
 class App extends Component {
   render () {
@@ -17,6 +19,8 @@ class App extends Component {
           <Route exact path='/tournaments' component={TournamentList} />
           <Route exact path='/quizstart' component={QuizStartingScreen} />
           <Route exact path='/questions' component={Questions} />
+          <Route exact path='/score' component={Score} />
+          <Route exact path='/finalscreen' component={FinalScreen} />
         </Switch>
       </BrowserRouter>
     )

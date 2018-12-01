@@ -11,8 +11,14 @@ export default class Questions extends Component {
         <Row>
           <Col>
             <div className="tournaments-ctn">
-              <h1 className="header header-quiz">Startup Weekend Quiz</h1>
-              
+              <h1 className="header header-quiz header-points">Startup Weekend Quiz</h1>
+              <div className="points">110 points!</div>
+              <h2 className="header subheader">You placed #2</h2>
+              <div>
+                  <Link to="/finalscreen">
+                    <Button className="tournament" color="primary" size="lg">Claim your reward!</Button>
+                  </Link>
+              </div>
             </div>
             
           </Col>

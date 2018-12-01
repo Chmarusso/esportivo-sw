@@ -66,3 +66,83 @@ body{
 table{
   font-size: 18px;
 }
+.points{
+  font-size: 40px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.header-points{
+  font-weight: bold;
+  margin-bottom: 15px;
+  font-size: 70px;
+}
+
+.big-mac{
+  display: flex;
+  justify-content: center;
+  opacity: 0;
+}
+
+.roll-in-top {
+	-webkit-animation: roll-in-top 0.6s ease-out 0.7s ;
+          animation: roll-in-top 0.6s ease-out 0.7s ;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes roll-in-top {
+  0% {
+    -webkit-transform: translateY(-800px) rotate(-540deg);
+            transform: translateY(-800px) rotate(-540deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0) rotate(0deg);
+            transform: translateY(0) rotate(0deg);
+    opacity: 1;
+  }
+}
+@keyframes roll-in-top {
+  0% {
+    -webkit-transform: translateY(-800px) rotate(-540deg);
+            transform: translateY(-800px) rotate(-540deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0) rotate(0deg);
+            transform: translateY(0) rotate(0deg);
+    opacity: 1;
+  }
+}
+
+.tracking-in-expand {
+	-webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both 1.4s;
+	        animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both 1.4s;
+          animation-fill-mode: forwards;
+          opacity: 0;
+        }
+
+ @-webkit-keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
