@@ -1,0 +1,14 @@
+{
+  "name": "esportivo-sw",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Chmarusso/esportivo-sw.git",
+  "author": "Artur Chmaro <artur.chmaro@consileon.pl>",
+  "license": "MIT",
+  "dependencies": {
+    "graphql-yoga": "^1.16.7"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.7"
+  }
+}
