@@ -14,9 +14,9 @@ export default class User extends Component {
               <Input placeholder="username" />
             </InputGroup>
             <ButtonGroup style={{display: 'flex', justifyContent: 'center', padding: '20px'}}>
-              <Button color="primary">Male</Button>
-              <Button color="primary">Female</Button>
-              <Button color="primary">Other</Button>
+              <Button outline color="primary">Male</Button>
+              <Button outline color="primary">Female</Button>
+              <Button outline color="primary">Other</Button>
             </ButtonGroup>
             <Button color="primary" size="lg" block>
               Next
