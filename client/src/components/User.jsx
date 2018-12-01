@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Container, Row, Col, Button, ButtonGroup  } from 'reactstrap'
 import { InputGroup, InputGroupAddon, InputGroupText, Input } from 'reactstrap'
+import { Link } from 'react-router-dom'
 
 export default class User extends Component {
   render() {
@@ -18,9 +19,11 @@ export default class User extends Component {
               <Button outline color="primary">Female</Button>
               <Button outline color="primary">Other</Button>
             </ButtonGroup>
-            <Button color="primary" size="lg" block>
-              Next
-            </Button>
+            <Link to='/tournaments'>
+              <Button color="primary" size="lg" block>
+                Next
+              </Button>
+            </Link>
           </Col>
         </Row>
       </Container>
