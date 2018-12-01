@@ -24,33 +24,27 @@ export default class TournamentsList extends Component {
                   <tr>
                     <th scope="row">1</th>
                     <td>Janusz</td>
-                    <td>120p</td>
+                    <td>120</td>
                   </tr>
                   <tr>
                     <th scope="row">2</th>
                     <td>Grazyna</td>
-                    <td>75p</td>
+                    <td>75</td>
                   </tr>
                   <tr>
                     <th scope="row">3</th>
                     <td>Karyna</td>
-                    <td>65p</td>
+                    <td>65</td>
                   </tr>
                   <tr>
                     <th scope="row">4</th>
                     <td>Seba</td>
-                    <td>60p</td>
-                  </tr>
-                  
-                  <tr>
-                    <th scope="row">5</th>
-                    <td>Brajanek</td>
-                    <td>45p</td>
+                    <td>60</td>
                   </tr>
                 </tbody>
               </Table>
               <div>
-                  <Link to="/quizstart">
+                  <Link to="/questions">
                     <Button className="tournament start" color="primary" size="lg">Play!</Button>
                   </Link>
               </div>
