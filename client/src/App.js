@@ -9,6 +9,7 @@ import Questions from './components/Questions'
 import './App.css'
 import Score from './components/Score';
 import FinalScreen from './components/FinalScreen';
+import FinalRating from './components/FinalRating';
 
 class App extends Component {
   render () {
@@ -21,6 +22,7 @@ class App extends Component {
           <Route exact path='/questions' component={Questions} />
           <Route exact path='/score' component={Score} />
           <Route exact path='/finalscreen' component={FinalScreen} />
+          <Route exact path='/finalrating' component={FinalRating} />
         </Switch>
       </BrowserRouter>
     )

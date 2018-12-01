@@ -16,6 +16,11 @@ export default class FinalScreen extends Component {
                 <img src="https://chrisdowjournalist.files.wordpress.com/2018/02/foi-17851response.png?w=332&h=247" alt=""/>
               </div>
               <h1 className="header header-quiz header-points tracking-in-expand">Big Mak</h1>
+              <div>
+                  <Link to="/finalrating">
+                    <Button className="tournament" color="primary" size="lg">Next</Button>
+                  </Link>
+              </div>
             </div>
           </Col>
         </Row>
