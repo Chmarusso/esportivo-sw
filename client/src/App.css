@@ -52,3 +52,17 @@ body{
 .tournament:last-child{
   margin-bottom: 10px;
 }
+
+.header-quiz{
+  margin-bottom: 0;
+}
+.subheader{
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.rating-list-item{
+  font-size: 23px;
+}
+table{
+  font-size: 18px;
+}

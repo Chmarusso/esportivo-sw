@@ -12,12 +12,12 @@ export default class TournamentsList extends Component {
               <h1 className="header">Tournaments:</h1>
               <div>
                   <Link to="/quizstart">
-                    <Button className="tournament" color="primary" size="lg">Startup Weekend Quiz 1</Button>
+                    <Button className="tournament" color="primary" size="lg">Startup Weekend Quiz</Button>
                   </Link>
               </div>
               <div>
                   <Link to="/quizstart">
-                    <Button className="tournament" color="primary" size="lg">Startup Weekend Quiz 2</Button>
+                    <Button className="tournament" color="primary" size="lg">Startup Weekend Quiz</Button>
                   </Link>
               </div>
             </div>
