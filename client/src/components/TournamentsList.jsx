@@ -21,7 +21,7 @@ export default class TournamentsList extends Component {
                   </Link>
               </div>
             </div>
-            
+
           </Col>
         </Row>
       </Container>
