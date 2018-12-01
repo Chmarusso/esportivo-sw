@@ -12,6 +12,19 @@ body {
 
 }
 
+#root {
+  display: flex;
+  min-height: 525px;
+  align-items: center;
+  margin: 20px;
+}
+
+.container {
+  background: #fff;
+  padding: 10px;
+  border-radius: 15px;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
