@@ -44,7 +44,7 @@ export default class TournamentsList extends Component {
                 </tbody>
               </Table>
               <div>
-                  <Link to="/questions">
+                  <Link to="/questions/1">
                     <Button className="tournament start" color="primary" size="lg">Play!</Button>
                   </Link>
               </div>

@@ -19,10 +19,10 @@ class App extends Component {
           <Route exact path='/' component={User} />
           <Route exact path='/tournaments' component={TournamentList} />
           <Route exact path='/quizstart' component={QuizStartingScreen} />
-          <Route exact path='/questions' component={Questions} />
           <Route exact path='/score' component={Score} />
           <Route exact path='/finalscreen' component={FinalScreen} />
           <Route exact path='/finalrating' component={FinalRating} />
+          <Route exact path='/questions/:step' component={Questions} />
         </Switch>
       </BrowserRouter>
     )
