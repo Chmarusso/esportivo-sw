@@ -22,6 +22,10 @@
   color: #61dafb;
 }
 
+body{
+
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -29,4 +33,22 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.header{
+  padding-top: 5px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.tournament{
+  width: 100%;
+  padding: 20px !important;
+  margin-top: 15px;
+  font-size: 23px !important;
+  margin-bottom: 10px;
+}
+
+.tournament:last-child{
+  margin-bottom: 10px;
 }

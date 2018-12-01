@@ -14,9 +14,9 @@ body {
 
 #root {
   display: flex;
-  min-height: 525px;
   align-items: center;
-  margin: 20px;
+  margin: 0 20px;
+  height: 100vh;
 }
 
 .container {
