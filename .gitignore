@@ -1,6 +1,9 @@
+<<<<<<< HEAD
 <<<<<<< eeb5481ceb2e0bb8af58bec6b7fde583b9356ef9
 node_modules/
 =======
+=======
+>>>>>>> 894afcbf3a978b1e2cb2ae8cd316054b7f1890d7
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
@@ -25,4 +28,7 @@ node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+<<<<<<< HEAD
 >>>>>>> reactstrap
+=======
+>>>>>>> 894afcbf3a978b1e2cb2ae8cd316054b7f1890d7
