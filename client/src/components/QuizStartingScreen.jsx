@@ -16,7 +16,7 @@ export default class QuizStartingScreen extends Component {
             </ol>
         </div>
         <div>
-        <a href="/tournament"><button>Start</button></a>
+        <a href="/questions"><button>Start</button></a>
             <button>Change tournament</button>
         </div>
       </div>

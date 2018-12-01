@@ -1,10 +1,12 @@
 import React, { Component } from 'react'
 
-export default class Tournament extends Component {
+export default class Questions extends Component {
   render() {
     return (
       <div>
-        filmik  
+        Questions
+
+        
       </div>
     )
   }
